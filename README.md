@@ -9,7 +9,7 @@ $ cd <virual_env>
 $ source bin/activate
 
 # Checkout app
-$ svn checkout --username <user_name> https://172.30.63.80:18080/svn/SmartCampus/stub/smartcampus
+$
 
 # Set svn ignore smartcampus dir
 $ svn propset svn:ignore -RF .svnignore .
@@ -18,9 +18,9 @@ $ svn propset svn:ignore -RF .svnignore .
 $ svn status --no-ignore
 
 # export PYTHONPATH to make pylint work
-# For ex. if you have checkout your project in /home/apatel/edx/smartcampus
+# For ex. if you have checkout your project in /home/apatel/
 # Then export the PYTHONPATH with following
-$ export PYTHONPATH=${HOME}/edx/smartcampus
+$ export PYTHONPATH=${HOME}/{path}
 
 # Set FLASK_CONFIG=production to skip test and other things
 # Available configurations are [production, testing, development, local]
@@ -46,10 +46,10 @@ $ fg
 $ Ctrl^C
 
 # Test api POST Method
-$ curl --data {} http://172.30.76.144:8089/testapi/
+$ curl --data {} http://172.xx.xx.xx:8089/testapi/
 
 # Test api GET Method
-$ curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://172.30.76.144:8089/testapi/
+$ curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://xx.xx.xx.xx:8089/testapi/
 
 # To run functional test cases
-$ locust -f functional.py --host=172.30.76.213 2>/dev/null &
+$ locust -f functional.py --host=xx.xx.xx.xx 2>/dev/null &
