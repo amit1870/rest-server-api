@@ -1,0 +1,14 @@
+Flask==1.1.1
+pymongo==3.8.0
+invoke==1.2.0
+colorlog==4.0.2
+lockfile==0.12.2
+requests==2.22.0
+pylint==1.8.3
+pytest==5.0.1
+pytest-cov==2.7.1
+coverage==4.5.4
+pytest-flask==0.15.0
+minio==4.0.20
+flask-cors==3.0.8
+psycopg2==2.8.4

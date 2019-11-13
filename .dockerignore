@@ -1,0 +1,12 @@
+# don't want to run docker from tasks so didn't include tasks folder
+tasks
+scripts
+tests
+.coveragerc
+.pylintrc
+.svnignore
+CHANGES
+LICENSE
+local_config.py.template
+MANIFEST.in
+README.md
