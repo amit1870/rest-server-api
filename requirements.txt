@@ -10,5 +10,5 @@ pytest-cov==2.7.1
 coverage==4.5.4
 pytest-flask==0.15.0
 minio==4.0.20
-flask-cors==3.0.8
+flask-cors==3.0.9
 psycopg2==2.8.4
